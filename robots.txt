@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amishra96361-ui.github.io/mishra-ji-web/sitemap.xml
