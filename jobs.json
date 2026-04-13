@@ -1,0 +1,44 @@
+[
+  {
+    "title": "SSC CGL 2026 - Assistant Audit Officer",
+    "department": "Staff Selection Commission",
+    "location": "All India",
+    "lastDate": "15 May 2026",
+    "applyUrl": "https://ssc.nic.in"
+  },
+  {
+    "title": "UPSC NDA/NA I 2026",
+    "department": "Union Public Service Commission",
+    "location": "Across India",
+    "lastDate": "21 May 2026",
+    "applyUrl": "https://upsc.gov.in"
+  },
+  {
+    "title": "IBPS PO XII 2026",
+    "department": "Institute of Banking Personnel Selection",
+    "location": "Multiple States",
+    "lastDate": "10 June 2026",
+    "applyUrl": "https://ibps.in"
+  },
+  {
+    "title": "Railway ALP & Technician",
+    "department": "Railway Recruitment Board",
+    "location": "Various Zones",
+    "lastDate": "05 June 2026",
+    "applyUrl": "https://indianrailways.gov.in"
+  },
+  {
+    "title": "SSC CHSL 2026",
+    "department": "Staff Selection Commission",
+    "location": "All India",
+    "lastDate": "18 June 2026",
+    "applyUrl": "https://ssc.nic.in"
+  },
+  {
+    "title": "SBI Clerk 2026",
+    "department": "State Bank of India",
+    "location": "Pan India",
+    "lastDate": "12 May 2026",
+    "applyUrl": "https://sbi.co.in"
+  }
+]
