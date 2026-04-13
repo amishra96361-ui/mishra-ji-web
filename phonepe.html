@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhonePe Lite - Mishra Ji Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="phonepe.js" defer></script>
+</head>
+<body>
+  <header class="hero phonepe-hero">
+    <div class="container">
+      <h1>PhonePe Lite</h1>
+      <p>यह एक सिंपल वॉलेट और ट्रांसफर प्रोटोटाइप है। असली भुगतान के लिए पेमेंट गेटवे जोड़ना होगा।</p>
+      <a class="button" href="index.html">वापस मुख्य पेज</a>
+    </div>
+  </header>
+
+  <main class="container phonepe-container">
+    <section class="wallet-card">
+      <div class="wallet-balance">
+        <span>Available Balance</span>
+        <h2 id="wallet-balance">₹ 5,000</h2>
+      </div>
+      <div class="wallet-actions">
+        <button id="quick-add" class="button secondary">₹ 500 Add</button>
+        <button id="quick-send" class="button secondary">₹ 500 Send</button>
+      </div>
+    </section>
+
+    <section class="transfer-card">
+      <h2>Send Money</h2>
+      <form id="transfer-form">
+        <label>Phone / UPI ID</label>
+        <input id="upi-id" type="text" placeholder="98765xxxxx@upi" required>
+
+        <label>Amount (₹)</label>
+        <input id="amount" type="number" placeholder="500" min="1" required>
+
+        <label>Note</label>
+        <input id="note" type="text" placeholder="Payment for recharge">
+
+        <button class="button">Send</button>
+      </form>
+      <p id="transfer-message" class="message"></p>
+    </section>
+
+    <section class="history-card">
+      <h2>Recent Transactions</h2>
+      <ul id="transaction-list">
+        <li><strong>PhonePe</strong> - ₹ 1500 credited</li>
+        <li><strong>Electricity Bill</strong> - ₹ 1100 sent</li>
+        <li><strong>Mobile Recharge</strong> - ₹ 299 sent</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Mishra Ji Web</p>
+  </footer>
+</body>
+</html>
