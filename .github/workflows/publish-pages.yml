@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Deploy site to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
